@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.global-btn {
+  background-color: #fdb467;
+  border: none;
+  padding: 9px 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 550;
+  margin-top: 25px;
+}
+
+.header {
+  height: 600px;
+  background-image: url(./Images/header.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header .h-content {
+  color: #fff;
+  width: 50%;
+  padding: 160px 80px 0 150px;
+}
+
+.header .h-content h1 {
+  text-transform: capitalize;
+  font-weight: 550;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.section1 {
+  height: 550px;
+}
+
+.section1 .about {
+  width: 50%;
+  float: left;
+  background-color: #272624;
+  color: #fff;
+  height: 550px;
+  text-align: center;
+  padding: 170px 30px 0 30px;
+}
+
+.section1 .about h1 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.section1 .reg {
+  text-align: center;
+  width: 50%;
+  float: left;
+  background-color: #1e1d1b;
+  color: #fff;
+  height: 550px;
+  padding: 170px 0 0 0;
+}
+
+.section1 .reg h1 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.section2 {
+  height: 550px;
+}
+
+.section2 .content {
+  height: 550px;
+  width: 35%;
+  float: left;
+  background-color: #eee9e5;
+  padding: 100px 50px 0 90px;
+}
+
+.section2 .content h1 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.section2 .bg {
+  height: 550px;
+  width: 65%;
+  float: right;
+  background-image: url(./Images/section2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section3 {
+  height: 550px;
+}
+
+.section3 .bg {
+  height: 550px;
+  width: 65%;
+  float: left;
+  background-image: url(./Images/section3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section3 .content {
+  height: 550px;
+  width: 35%;
+  float: left;
+  background-color: #272624;
+  padding: 100px 50px 0 90px;
+  color: #fff;
+}
+
+.section3 .content h1 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.section4 {
+  height: 550px;
+}
+
+.section4 .bg {
+  height: 450px;
+  background-image: url(./Images/section4.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section4 .solid-bg {
+  height: 100px;
+  background-color: #272624;
+}
+
+.section4 .card {
+  height: 430px;
+  width: 40%;
+  margin: 120px 0 0 150px;
+  position: absolute;
+  background-color: #eee9e5;
+}
+
+.section4 .card .card-holder {
+  margin: 90px 100px 0 60px;
+}
+
+.section4 .card .card-holder h1 {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.section4 .card .card-holder .student {
+  font-size: 21px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+
+.divider {
+  height: 3px;
+  background-color: #46403f;
+}
+
+.footer {
+  height: 500px;
+  background-color: #272624;
+  color: #fff;
+}
+
+.footer .f-content {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 150px;
+}
+.footer .f-content .content h1 {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.footer .f-content .content p {
+  margin-bottom: 30px;
+}
+
+.footer .f-content .input input {
+  width: 250px;
+  margin-right: 5px;
+  background-color: #272624;
+  padding: 8px 0px 8px 6px;
+  border: 2px solid #929292;
+}
